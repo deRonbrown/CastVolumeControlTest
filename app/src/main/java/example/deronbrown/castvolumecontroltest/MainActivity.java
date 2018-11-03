@@ -2,7 +2,6 @@ package example.deronbrown.castvolumecontroltest;
 
 import android.media.AudioManager;
 import android.net.Uri;
-import android.support.v4.media.MediaMetadataCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -28,9 +27,6 @@ import com.google.android.gms.cast.MediaMetadata;
 import com.google.android.gms.cast.MediaQueueItem;
 import com.google.android.gms.cast.framework.CastButtonFactory;
 import com.google.android.gms.cast.framework.CastContext;
-import com.google.android.gms.cast.framework.CastSession;
-import com.google.android.gms.cast.framework.SessionManager;
-import com.google.android.gms.cast.framework.media.RemoteMediaClient;
 
 public class MainActivity extends AppCompatActivity implements CastPlayer.SessionAvailabilityListener,
         AudioManager.OnAudioFocusChangeListener {
